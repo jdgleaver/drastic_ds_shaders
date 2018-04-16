@@ -10,7 +10,7 @@ Some shaders for [DraStic DS](https://play.google.com/store/apps/details?id=com.
 
 ## LCD1x
 
-A very simple 'scanlines' shader, based on LCD3x from RetroArch. Differs from LCD3x in that it omits the 3-band colour separation and has correctly aligned scanlines. Works well on low resolution displays (i.e. 720p).
+A very simple 'scanline' shader, based on LCD3x from RetroArch. Differs from LCD3x in that it omits the 3-band colour separation and has correctly aligned scanlines. Works well on low resolution displays (i.e. 720p).
 
 ## zFast LCD
 
