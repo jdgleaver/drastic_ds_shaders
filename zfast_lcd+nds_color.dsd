@@ -47,14 +47,14 @@ void main()
 // Colour defines...
 #define target_gamma 2.2
 #define display_gamma 2.2
-#define r 0.84
+#define r 0.85
 #define g 0.655
 #define b 0.865
 #define rg 0.095
 #define rb 0.06
 #define gr 0.20
 #define gb 0.075
-#define br -0.04
+#define br -0.05
 #define bg 0.25
 
 uniform sampler2D u_texture;
