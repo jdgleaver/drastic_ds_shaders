@@ -42,17 +42,18 @@ void main()
 <fragment>
 
 // Colour defines...
-#define target_gamma 2.2
-#define display_gamma 2.2
-#define r 0.85
-#define g 0.655
-#define b 0.865
-#define rg 0.095
-#define rb 0.06
-#define gr 0.20
-#define gb 0.075
-#define br -0.05
-#define bg 0.25
+#define target_gamma 1.91
+#define display_gamma 1.91
+#define lum 0.89
+#define r 0.87
+#define g 0.645
+#define b 0.73
+#define rg 0.10
+#define rb 0.10
+#define gr 0.255
+#define gb 0.17
+#define br -0.125
+#define bg 0.255
 
 uniform sampler2D u_texture;
 
@@ -78,7 +79,7 @@ void main()
 	
 	// Get colour sample and apply colour correction
 	vec3 colour = pow(texture2D(u_texture, mod_texel / u_texture_size.zw).rgb, vec3(target_gamma));
-	colour = clamp(colour, 0.0, 1.0);
+	colour = clamp(colour * lum, 0.0, 1.0);
 	colour = pow(
 		mat3(r,  rg, rb,
 			  gr, g,  gb,
