@@ -4,6 +4,8 @@ Some shaders for [DraStic DS](https://play.google.com/store/apps/details?id=com.
 
 - All shaders include a '+ NDS Color' variant, which applies colour correction to simulate the display characteristics of a DS Phat
 
+- All shaders include a '+ Natural Vision' variant, which applies ShadX's 'Natural Vision' colour (saturation) enhancement
+
 - All shaders work correctly with 'High-Resolution 3D Rendering' turned ON or OFF
 
 - All shaders run at full speed on mid-to-low-range Android devices
