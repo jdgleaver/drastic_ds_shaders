@@ -21,3 +21,7 @@ A port of the 'sharp-bilinear'/'sharp-bilinear-simple' shader from RetroArch. Cr
 ## zFast LCD
 
 A port of the 'zfast_lcd' shader from RetroArch. Creates an LCD effect by adding a subtle grid lattice to the screen. REQUIRES a high resolution display (at least 1080p). Works best with integer screen scaling, but fine without.
+
+## NDS Color
+
+A stand-alone DS Phat colour correction shader, which may be combined (as a first pass) with other shaders not included in this repository.
